@@ -7,7 +7,7 @@
     --branco: #f9f8f8;
     --botao-ativo: #8a8b8b;
     --botao-inativo: rgba(10, 10, 10, 0.5);
-    --texto-fundo: rgba(248, 249, 251, 0.993);
+    --texto-fundo: rgba(76, 77, 78, 0.993);
 }
 
 
@@ -72,7 +72,19 @@ background-color: var(--botao-ativo);
 border-bottom: 10px solid var(--verde);
 }
 
+.abas-textos{
+  background-color: var(--texto-fundo);
+  padding: 40px;
+  border-radius: 0 0 40px 40px;
+}
 
+.aba-conteudo.ativo{
+  display:block;
+} 
+
+.aba-conteudo{
+  display: none;
+}  
 
 
 
